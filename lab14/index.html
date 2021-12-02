@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title> Lab 15: AJAX </title>
+ <script src="js/lab.js" defer></script>
+ <link rel="stylesheet" type="text/css" href="../css/site.css">
+ <link rel="stylesheet" type="text/css" href="css/lab.css">
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+<div class = "framing">
+  <video autoplay muted loop class = "videoPlayer">
+    <source src="video/backgroundScreen.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+<div id ="elevenScrawl">
+      <h1>Challenge</h1>
+          <p>The chalenge in this lab was to create a user interface button, and have a function tied to the button. Once the button is clicked, an jQuery AJAX call is then made to get output, which is then assigned to a div output.</p>
+
+      <h1>Problems</h1>
+          <p>One of the first few problems came with improper placements of closing parenthesis and curly brackets. After those were resolved, next came the issue of the visible output breaking page format, something we solved using a method we employed in lab 13.</p>
+
+      <h1>Results</h1>
+          <p>Once those two were addressed, our site was up and functional!</p> <br>
+
+
+        <button id = "activate" type = "button">Activate</button>
+
+          <div class = "textBox">
+            <div id = "output">
+            </div>
+          </div>
+
+              <a class = "sourcelink" href = "js/lab.js" target = "source">Javascript Source</a>
+</div>
+</body>
+</html>

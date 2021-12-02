@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+ <title> Lab 12: Conditionals </title>
+ <script src="js/lab.js" defer></script>
+ <link rel="stylesheet" type="text/css" href="../css/site.css">
+ <link rel="stylesheet" type="text/css" href="css/lab.css">
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+
+<div class = "framing">
+  <video autoplay muted loop class = "videoPlayer">
+    <source src="video/vintage.mp4" type="video/mp4">
+  </video>
+</div>
+
+
+<div id ="elevenScrawl">
+      <h1>Challenge</h1>
+        <div class = "mainText">
+          <p>The challenge of this lab was to make an input field for a user to type in their name, make a submit button, and generate a unique response based on the name length</p>
+        </div>
+
+      <h1>Problems</h1>
+        <div class = "mainText">
+          <p>One issue that had popped up early on was having the result of the function displaying for the user to see. It was only after some discussion that we realized we had not altered the HTML of the div output. The function was being run, but was not assigned in any way for the user to see.</p>
+        </div>
+
+      <h1>Results</h1>
+        <div class = "mainText">
+          <p>In the end we managed to make the site fully functional. After a few spelling corrections on both our parts you can now be sorted into your Hogwarts House!</p> <br>
+        </div>
+
+        <div class = "mainText">
+        <p>Please enter your name for sorting</p>
+        </div>
+        
+        <input type = "text" id="input">
+        <button id = "buttonSubmit" type = "button">Submit</button>
+
+        <div class = "mainText">
+          <div id = "output">
+          </div>
+        </div>
+
+        <a class = "sourcelink" href = "js/lab.js" target = "source">Javascript Source</a>
+
+</div>
+</body>
+</html>

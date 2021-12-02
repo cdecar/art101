@@ -1,0 +1,50 @@
+
+
+.videoPlayer{
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position:fixed;
+  left: 0;
+  top:0;
+}
+
+
+#elevenScrawl{
+  position: relative;
+  display: block;
+  font-family: Share Tech Mono;
+  font-size: 24;
+  color: white;
+  margin-left: 80px;
+  margin-top: 80px;
+  margin-right: 80px;
+  margin-bottom: 80px;
+  text-align: left;
+  align-items: flex-start;
+
+
+}
+
+.textBox{
+  width: 80%;
+  height: 80px;
+  left: 30%;
+  padding: 5px;
+  margin: 5px;
+
+
+}
+
+#photoFrame{
+  left: 80px;
+  height: 850px;
+  width: 80%;
+
+}
+
+#altText{
+  left: 80px;
+  height: 20px;
+  width: 80%;
+}
